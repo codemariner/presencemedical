@@ -1,0 +1,2 @@
+class OutpatientProcedure < Procedure
+end

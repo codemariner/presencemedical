@@ -1,4 +1,6 @@
 Presencemedical::Application.routes.draw do
+  resources :procedures
+
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
